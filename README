@@ -1,0 +1,4 @@
+## Welcome
+
+This is example for the [ASP.NET MVC Services] (http://chaliy.name/blog/2009/9/asp_net_mvc_services_part_1). In words, it's about to wrap anything that comes from ASP.NET MVC and make form it `JSON`.
+
