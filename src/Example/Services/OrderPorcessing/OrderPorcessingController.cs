@@ -2,8 +2,10 @@
 {
     using Community.Web.Mvc.Services;
     using Example.Application;
+    using System.Web.Mvc;
 
-    public class OrderPorcessingController : ServiceController
+    [Service]
+    public class OrderPorcessingController : Controller
     {
         public OrderPromotionResult PromoteOrder(string orderNumber)
         {
